@@ -1,0 +1,163 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-nav__container {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .header-text-box {
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 290%;
+  }
+
+  .header-text-box div:last-child {
+    margin-top: 2.5rem;
+  }
+
+  .header-text {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  .our-chef__box {
+    flex-direction: column;
+  }
+
+  .chef-box {
+    width: 100%;
+    margin: 3rem 0 0 0;
+  }
+
+  .our-chef__description {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-nav__container {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .header-text-box {
+    width: 100%;
+  }
+
+  .header-text {
+    margin: 1rem 0;
+  }
+
+  .header-title {
+    font-size: 300%;
+  }
+
+  .header-text-box div:last-child {
+    margin-top: 1.5rem;
+  }
+
+  .header-text-box {
+    margin-top: 5rem;
+  }
+
+  .our-chef__box {
+    flex-direction: column;
+  }
+
+  .chef-box {
+    width: 100%;
+    margin: 3rem auto;
+  }
+
+  .our-chef__description {
+    width: 100%;
+  }
+
+  .chef-box__image {
+    width: 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-text-box {
+    width: 50%;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
+  .main-nav__container {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .main-nav__container li:last-child {
+    margin-right: 1rem;
+  }
+
+  .main-nav__container li {
+    margin-right: 2.5rem;
+  }
+
+  .our-chef__box {
+    flex-direction: row;
+  }
+
+  .chef-box__image {
+    width: 60%;
+  }
+
+  .our-chef__description {
+    width: 40%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-text-box {
+    width: 50%;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-header__title {
+    width: 35%;
+  }
+
+  .header-title {
+    font-size: 400%;
+  }
+
+  .header-text {
+    font-size: 145%;
+    margin: 2rem 0;
+  }
+
+  .header-text-box-contaciner {
+    justify-content: flex-end;
+  }
+
+  .header-text-box {
+    width: 50%;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
+
+  .header-text-box div:last-child {
+    margin-top: 4rem;
+  }
+}
