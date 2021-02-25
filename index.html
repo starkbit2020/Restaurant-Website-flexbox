@@ -63,8 +63,8 @@
         </div>
     </header>
     <section id="our-chef-section" class="our-chef">
-        <h1 class="our-chef__header-title">Our Chef</h1>
-        <p class="our-chef__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio
+        <h1 class="section-title">Our Chef</h1>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio
             vitae vestibulum vestibulum.
         </p>
         <div class="container our-chef__box">
@@ -115,7 +115,7 @@
                     <p class="big-burger__info-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vivamus lacinia odio vitae vestibulum
                         vestibulum. </p>
-                    <a href="#" class="btn btn-hot">Order Now</a>
+                    <a href="#" class="btn btn-hot big-burger-btn">Order Now</a>
                 </div>
             </div>
             <div class="big-burger__image-box">
@@ -123,7 +123,134 @@
             </div>
         </div>
     </section>
+    <section id="statistics-section">
+
+
+        <h1 class="section-title">Statistics</h1>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio
+            vitae vestibulum vestibulum.</p>
+        <div class="container statistics-section-container">
+            <div class="statistics-section-box">
+                <h1 class="customers"></h1>
+                <span class="statistics-section-box__text">Customers</span>
+            </div>
+            <div class="statistics-section-box">
+                <h1 class="outlets"></h1>
+                <span class="statistics-section-box__text">Outlets</span>
+            </div>
+            <div class="statistics-section-box">
+                <h1 class="country"></h1>
+                <span class="statistics-section-box__text">Country</span>
+            </div>
+        </div>
+    </section>
+    <section id="popular-package">
+        <h1 class="section-title">Popular Package</h1>
+        <div class="container popular-package-container">
+            <div class="popular-package-box">
+                <div class="popular-package__header">
+                    <h2>Package I</h2>
+                </div>
+                <div class="popular-package__icon">
+                    <img src="./images/Burger-icon.png" alt="Burger Icon">
+                </div>
+                <div class="popular-package__price">
+                    <span>10$</span>
+                </div>
+                <div class="popular-package__info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="popular-package__btn-box">
+                    <a href="#" class="popular-package-btn">Order Now</a>
+                </div>
+            </div>
+            <div class="popular-package-box">
+                <div class="popular-package__header">
+                    <h2>Package II</h2>
+                </div>
+                <div class="popular-package__icon">
+                    <img src="./images/Burger-icon.png" alt="Burger Icon">
+                </div>
+                <div class="popular-package__price">
+                    <span>20$</span>
+                </div>
+                <div class="popular-package__info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="popular-package__btn-box">
+                    <a href="#" class="popular-package-btn">Order Now</a>
+                </div>
+            </div>
+            <div class="popular-package-box">
+                <div class="popular-package__header">
+                    <h2>Package III</h2>
+                </div>
+                <div class="popular-package__icon">
+                    <img src="./images/Burger-icon.png" alt="Burger Icon">
+                </div>
+                <div class="popular-package__price">
+                    <span>30$</span>
+                </div>
+                <div class="popular-package__info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="popular-package__btn-box">
+                    <a href="#" class="popular-package-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $({
+            countNum: $('.customers').html()
+        }).animate({
+            countNum: 7
+        }, {
+            duration: 0,
+            easing: 'linear',
+            step: function () {
+                $('.customers').html(Math.floor(this.countNum) + "+");
+            },
+            complete: function () {
+                $('.customers').html(this.countNum + "K");
+                //alert('finished');
+            }
+        });
+
+        $({
+            countNum: $('.outlets').html()
+        }).animate({
+            countNum: 109
+        }, {
+            duration: 5000,
+            easing: 'linear',
+            step: function () {
+                $('.outlets').html(Math.floor(this.countNum) + "+");
+            },
+            complete: function () {
+                $('.outlets').html(this.countNum + "");
+                //alert('finished');
+            }
+        });
+
+        $({
+            countNum: $('.country').html()
+        }).animate({
+            countNum: 95
+        }, {
+            duration: 5000,
+            easing: 'linear',
+            step: function () {
+                $('.country').html(Math.floor(this.countNum) + "+");
+            },
+            complete: function () {
+                $('.country').html(this.countNum + "");
+                //alert('finished');
+            }
+        });
+    </script>
 </body>
 
 </html>
