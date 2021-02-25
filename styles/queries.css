@@ -38,6 +38,22 @@
   .our-chef__description {
     width: 100%;
   }
+
+  .best-burger__info {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+  }
+
+  .big-burger__info {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+  }
+
+  .big-burger__image-box {
+    order: -1;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -86,6 +102,20 @@
   .chef-box__image {
     width: 50%;
   }
+
+  .best-burger__info {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+  }
+  .big-burger__info {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+  }
+  .big-burger__image-box {
+    order: -1;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -122,6 +152,31 @@
   .our-chef__description {
     width: 40%;
   }
+
+  .best-burger-container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .best-burger__info {
+    width: 70%;
+    margin: 0 0 0 10rem;
+    text-align: left;
+  }
+
+  .big-burger-container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .big-burger__info {
+    width: 70%;
+    /* margin: 0 0 0 10rem; */
+    text-align: left;
+  }
+  .big-burger__image-box {
+    order: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -130,6 +185,10 @@
     width: 50%;
     color: #ffffff;
     margin-top: 3rem;
+  }
+
+  .chef-box__image {
+    width: 60%;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -157,7 +216,15 @@
     margin-top: 3rem;
   }
 
-  .header-text-box div:last-child {
-    margin-top: 4rem;
+  .chef-box {
+    width: 25%;
+  }
+
+  .chef-box__image {
+    width: 60%;
+  }
+
+  .chef-box {
+    margin: 3rem auto 8rem auto;
   }
 }

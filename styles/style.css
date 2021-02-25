@@ -47,6 +47,17 @@ a {
   border-color: #f64b3c;
 }
 
+.btn-lighten {
+  background-color: #ffffff;
+  color: #f64b3c;
+}
+
+.btn-lighten:active,
+.btn-lighten:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
 /* ======================== 
           SIDE-BAR
 ==========================*/
@@ -269,4 +280,77 @@ a {
   font-size: 135%;
   /* margin-bottom: 2rem; */
   color: #f64b3c;
+}
+
+/* ======================== 
+      BEST-BURGER 
+==========================*/
+#best-burger {
+  background-color: #f64b3c;
+}
+.best-burger-container {
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 8rem 0;
+  flex-wrap: wrap;
+}
+
+.best-burger__info {
+  width: 70%;
+  margin: 5rem 0 0 10rem;
+}
+
+.best-burger__info-title {
+  font-size: 350%;
+  color: #ffffff;
+}
+
+.best-burger__info-description {
+  font-size: 120%;
+  color: #ffffff;
+  margin: 2rem 0;
+}
+
+.best-burger__image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* ======================== 
+      BIG-BURGER 
+==========================*/
+#big-burger {
+  background: url("../images/Big-Burger.jpg") no-repeat center/cover;
+}
+
+.big-burger-container {
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 8rem 0;
+  flex-wrap: wrap;
+}
+
+.big-burger__info {
+  width: 70%;
+  margin: 5rem 0 0 10rem;
+}
+
+.big-burger__info-title {
+  font-size: 350%;
+  color: #f64b3c;
+}
+
+.big-burger__info-description {
+  font-size: 120%;
+  color: #f64b3c;
+  margin: 2rem 0;
+}
+
+.big-burger__image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
