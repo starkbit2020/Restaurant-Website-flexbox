@@ -396,9 +396,9 @@ a {
   color: #ffffff;
   font-size: 350%;
   font-family: "Archivo";
-  width: 300px;
-  height: 300px;
-  line-height: 18rem;
+  width: 280px;
+  height: 280px;
+  line-height: 15rem;
   position: relative;
   margin: 1rem 0;
 }

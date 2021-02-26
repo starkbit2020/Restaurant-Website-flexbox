@@ -69,7 +69,7 @@
 
   .popular-package-box {
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
   }
 
   #popular-package .section-title {
@@ -200,7 +200,7 @@
 
   .popular-package-box {
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
   }
 
   .overview-box {
@@ -258,7 +258,7 @@
   }
 
   .main-nav__container li {
-    margin-right: 2.5rem;
+    margin-right: 2rem;
   }
 
   .our-chef__box {
@@ -311,7 +311,7 @@
 
   .popular-package-box {
     width: 30%;
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
   }
 
   .popular-package-btn:link,
