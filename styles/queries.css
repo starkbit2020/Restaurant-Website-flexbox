@@ -372,6 +372,7 @@
 
   .statistics-section-container {
     width: 90%;
+    justify-content: space-around;
   }
 
   .popular-package-container {
@@ -442,6 +443,6 @@
   }
 
   .subscribe-box {
-    width: 80%;
+    width: 60%;
   }
 }
